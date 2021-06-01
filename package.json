@@ -1,0 +1,23 @@
+{
+  "name": "amazona-app",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "1. Introduction to this course\r    1. what you will build\r    2. what you will learn\r    3. who are audiences\r 2. Install Tools\r    1. Code Editor\r    2. Web Browser\r    3. VS Code Extension\r 3. Website Template\r    1. Create amazona folder\r    2. create template folder\r    3. create index.html\r    4. add default HTML code\r    5. link to style.css\r    6. create header, main and footer\r    7. style elements\r 4. Display Products\r    1. create products div\r    2. add product attributes\r    3. add link, image, name and price",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Etibar101/amazona-app.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Etibar101/amazona-app/issues"
+  },
+  "homepage": "https://github.com/Etibar101/amazona-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
